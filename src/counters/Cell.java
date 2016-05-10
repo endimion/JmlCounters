@@ -1,12 +1,12 @@
 package counters;
 
-public class Counter{
+public class Cell{
 
 	private /*@ spec_public non_null @*/ int cell;
 	
 	/*@ ensures read() == 0;
 	 */
-	public Counter(){
+	public Cell(){
 		cell = 0;
 	}
 	

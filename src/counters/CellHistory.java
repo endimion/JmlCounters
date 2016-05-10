@@ -1,13 +1,13 @@
 package counters;
 
-public class CounterHistory {
+public class CellHistory {
 
 	private  final /*@ spec_public non_null @*/ IntegerLista list;
 	
 
 	
 	
-	public CounterHistory(){
+	public CellHistory(){
 		list = new IntegerLista();
 	}
 	
